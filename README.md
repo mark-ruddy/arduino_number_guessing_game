@@ -31,10 +31,17 @@ Once Arduino board is connected with USB, can flash new code: `cd arduino_number
 
 The USB connection can then be used to provide 5V power to the Arduino board and if the wiring is correct the project should run. Point the IR remote in direction of IR receiver and start guessing. If LCD screen isn't visible, then try turning the potentiometer to change contrast, otherwise check all wiring is correct.
 
+## Images
+A couple glary images of the game:
+
+![img1.jpeg](docs/img1.jpeg)
+![img2.jpeg](docs/img2.jpeg)
+
 ## Contributing
 Can open a PR or fork repo etc., examples:
 
 - Currently the remaining turns are indicated by a decreasing number of columns being lit on the matrix. Could update this to go from numbers 6-0 and then maybe a W or an L for win/loss at end of a round. Had trouble finding code examples for representing alphanumerics using the LedControl library.
 - Add support for alternative inputs such as a keypad membrane switch, as using an IR remote can be tedious for typing in each number.
 - There is a bug where if the user enters something like "000" they cannot backspace these 0 digits and if they then enter "5" it becomes "500". This is an issue with how the digit addition/removal handles 0s.
+- On the hardware side, something like a 3D printed enclosure that holds the IR receiver, LCD and matrix in-place would make it look a lot better than hanging 2 modules on by F-M wires.
 
