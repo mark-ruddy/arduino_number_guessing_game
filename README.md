@@ -1,5 +1,5 @@
 # Arduino Number Guessing Game
-An Arduino based implementation of a game where the player is given 6 chances to guess a number between 1 and 100 with each guess revealing if the number is higher or lower. This type of game can be written to learn a new programming languages syntax, for example the [Rust Guessing Game](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html).
+An Arduino based implementation of a game where the player is given 6 chances to guess a number between 1 and 100 with each guess revealing if the number is higher or lower.
 
 
 ## Software
