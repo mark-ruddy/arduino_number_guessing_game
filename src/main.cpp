@@ -2,7 +2,6 @@
 #include <IRremote.hpp>
 #include <LedControl.h>
 #include <LiquidCrystal.h>
-#include <MD_MAX72xx.h>
 
 #define IR_RECV_PIN 2
 LedControl lc = LedControl(6, 5, 4, 1);
