@@ -23,7 +23,7 @@ This project is built with these parts from the Elegoo Complete Starter Kit:
 - Breakout IR receiver module
 - IR Remote (NOTE: if you are not using Elegoo IR remote you may need to update IR codes  in `src/main.cpp`)
 
-Wiring schematic below, might not be super clear, also refer to pin numbers defined in source code against your own wiring(e.g. IR receiver signal wire is defined as digital pin 2).
+Wiring schematic below, might not be super clear, also refer to pin numbers defined in source code against your own wiring(e.g. IR receiver signal wire is defined as digital pin 2). IR receiver signal pin may be in middle rather than on left as shown in this diagram as it depends on your specific module:
 
 ![Schematic](docs/arduino_number_guessing_game_schematic.png)
 
